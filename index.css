@@ -1,0 +1,25 @@
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    
+}
+
+#password{
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: red;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border-color: brown;
+    
+}
+#password:focus{
+    outline: none; 
+}
